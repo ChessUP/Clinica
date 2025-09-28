@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1024px;
+    margin: auto;
+}
+
+.topo .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 60px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.topo {
+    background-color: #00cad1;
+    width: 100%;
+}
+
+footer {
+    background-color: #0d6e71;
+    color: #fff;
+    padding: 20px;
+}
+  footer .container {
+    text-align: center;
+  }
+
+  
